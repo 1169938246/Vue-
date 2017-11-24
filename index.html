@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+	</head>
+
+	<body>
+
+		<div class="container">
+
+			<!-- Modal -->
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title">办理人身份证扫描件</h4>
+						</div>
+
+						<div class="modal-body">
+							<img src="" id="exImg" width="100% " />
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="header " role="navigation">
+				<ul class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active">
+						<a href="#home" aria-controls="home" role="tab" data-toggle="tab">车辆综合信息表</a>
+					</li>
+					<li role="presentation">
+						<a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">通信证综合信息表</a>
+					</li>
+					<li role="presentation">
+						<a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">公司综合信息表</a>
+					</li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content" style="margin-top: 10px">
+					<div role="tabpanel" class="tab-pane  fade in active" id="home">
+						<table class="table">
+							<tbody>
+								<tr>
+									<td><label>车牌号头 7位</label></td>
+									<td>鄂A45685</td>
+									<td><label>车牌号尾 7位</label></td>
+									<td>123456</td>
+									<td><label>车辆类型</label></td>
+									<td>轿车</td>
+								</tr>
+								<tr>
+									<td><label>车辆归属</label></td>
+									<td>个人</td>
+									<td><label>申请主体</label></td>
+									<td>个人</td>
+									<td><label>公司法人姓名</label></td>
+									<td>张三</td>
+								</tr>
+								<tr>
+									<td><label>注册地址</label></td>
+									<td>湖北省武汉市东西湖区</td>
+									<td><label>营业执照号</label></td>
+									<td>532501100006302</td>
+									<td><label>营业执照扫描件</label></td>
+									<td>
+								<span style="color: cornflowerblue;cursor:pointer;" data-toggle="modal" data-target="#myModal" class="toggle" data-num="1"> 查看详情</span>
+										
+									</td>
+								</tr>
+
+								<tr>
+									<td><label>办理人</label></td>
+									<td>王五</td>
+									<td><label>办理人电话</label></td>
+									<td>13256899954</td>
+									<td><label>办理人身份证号</label></td>
+									<td>42038114456895555</td>
+								</tr>
+
+								<tr>
+									<td><label>办理人身份证扫描件</label></td>
+									<td><span style="color: cornflowerblue;cursor:pointer;" data-toggle="modal" data-target="#myModal" class="toggle" data-num="2">
+  查看详情
+</span></td>
+									<td><label>办理人授权书</label></td>
+									<td><span style="color: cornflowerblue;cursor:pointer;" data-toggle="modal" data-target="#myModal" class="toggle" data-num="3">
+  查看详情
+					<td><label>资质类型</label></td>
+					<td>一类资质</td>
+				</tr>
+				
+				
+				<tr>
+					<td class="title"><label>资质扫描件</label></td>
+					<td><span style="color: cornflowerblue;cursor:pointer;" data-toggle="modal" data-target="#myModal" class="toggle"  data-num="4">
+  查看详情
+</span></td>
+									<td><label>资质到期时间</label></td>
+									<td>2017年5月10日</td>
+									<td><label>通行证编码</label></td>
+									<td>532501100006302</td>
+								</tr>
+
+								<tr>
+									<td><label>通行证名称</label></td>
+									<td>自由之翼</td>
+									<td><label>通行证序列号</label></td>
+									<td>89545552</td>
+									<td><label>通行证开始时间</label></td>
+									<td>2015年6月8日</td>
+								</tr>
+
+								<tr>
+									<td><label>通行证结束时间</label></td>
+									<td>2017年10月5日</td>
+									<td><label>用途对应通行证类别</label></td>
+									<td>高</td>
+									<td><label>通行范围</label></td>
+									<td>全省</td>
+								</tr>
+
+								<tr>
+									<td><label>年内违章次数</label></td>
+									<td>2</td>
+									<td><label>年内未处理违章次数</label></td>
+									<td>3</td>
+									<td><label>通行证期内超区域次数</label></td>
+									<td>3</td>
+								</tr>
+
+								<tr>
+									<td><label>通行证期内超时间次数</label></td>
+									<td>2</td>
+									<td><label>通行证期内超速次数</label></td>
+									<td>1</td>
+									<td><label>通行证期内超载次数</label></td>
+									<td>2</td>
+								</tr>
+
+								<tr>
+									<td><label>往期通行证名称</label></td>
+									<td>机动车驾驶证</td>
+									<td><label>年审情况</label></td>
+									<td>2017年4月5日</td>
+									<td><label>保险情况</label></td>
+									<td>再保</td>
+								</tr>
+
+								<tr>
+									<td><label>保险额度</label></td>
+									<td>50000元</td>
+									<td><label>是否黑名单</label></td>
+									<td>否</td>
+									<td><label>综合评分</label></td>
+									<td>5</td>
+								</tr>
+
+								<tr>
+									<td><label>驾驶人姓名</label></td>
+									<td>李四</td>
+									<td><label>驾驶人身份证号</label></td>
+									<td>450355513225452</td>
+									<td><label>驾驶人情况</label></td>
+									<td>正常</td>
+								</tr>
+
+								<tr>
+									<td><label>异常情况</label></td>
+									<td>良好</td>
+
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div role="tabpanel" class="tab-pane  fade" id="profile">
+						<table class="table table-striped">
+						
+					</div>
+					<div role="tabpanel" class="tab-pane  fade" id="messages">3</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script>
+			$('#myTabs a').click(function(e) {
+				e.preventDefault()
+				$(this).tab('show')
+			})
+			$("#home tr td:even").css({ "background": "#f8f8f8", "width": "15%", "textAlign": "center" })
+			$('#myModal').on('shown.bs.modal', function() {
+				$('#myInput').focus()
+			})
+			$(".toggle").click(function() {
+				$(".modal-title").text($(this).parent().prev().text());
+
+				var num = $(this).attr("data-num");
+				console.log(num)
+				switch(num) {
+					case "1":
+						$("#exImg").attr("src", "img/timg2.jpg");
+						break;
+
+					case "2":
+						$("#exImg").attr("src", "img/timg.jpg")
+						break;
+					case "3":
+						$("#exImg").attr("src", "img/timg3.jpg")
+						break;
+					case "4":
+						$("#exImg").attr("src", "img/timg4.jpg")
+						break;
+				}
+
+			})
+		</script>
+	</body>
+
+</html>
